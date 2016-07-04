@@ -106,11 +106,11 @@ def game_loop():
         else:
             print "The position is already taken! "
 game_loop()
-'''reply=raw_input("Wanna Play again? (y/n) ").lower()
+reply=raw_input("Wanna Play again? (y/n) ").lower()
 while reply=='y':
     sys.stderr.write("\x1b[2J\x1b[H")
     for i in range(0,9):
         board[i]=i
     show()
     game_loop()
-    reply=raw_input("Wanna Play again? (y/n) ").lower()'''
+    reply=raw_input("Wanna Play again? (y/n) ").lower()
